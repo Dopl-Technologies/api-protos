@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-package github.com.pyrus.platform.protos;
+package github.com.dopl.protos;
 
-option go_package = "platform";
-option csharp_namespace = "Pyrus.Platform.Protos";
+option go_package = "dopl";
+option csharp_namespace = "Dopl.Protos";
 
 import "common.proto";
 import "google/protobuf/timestamp.proto";
