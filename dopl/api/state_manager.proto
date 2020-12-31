@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package github.com.dopl.protos;
 
-option go_package = "dopl";
+option go_package = "github.com.dopl.protos;dopl";
 option csharp_namespace = "Dopl.Protos";
 
 import "common.proto";
