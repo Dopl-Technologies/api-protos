@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-package github.com.dopl.protos;
+package dopltechnologies.protos;
 
-option go_package = "github.com.dopl.protos;dopl";
-option csharp_namespace = "Dopl.Protos";
+option go_package = "github.com/dopl-technologies/api-protos-go;dtprotos";
+option csharp_namespace = "DoplTechnologies.Protos";
 
 import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
