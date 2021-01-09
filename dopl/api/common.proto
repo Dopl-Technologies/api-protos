@@ -66,13 +66,6 @@ message RobotControllerData {
     float deflectionVelocity = 3;
 }
 
-message NullableRobotControllerData {
-    oneof kind {
-        google.protobuf.NullValue null = 1;
-        RobotControllerData data = 2;
-    }
-}
-
 message ElectricalSignalData {
     uint32 signalId = 1;
     float value = 2;
@@ -81,7 +74,7 @@ message ElectricalSignalData {
 
 message Frame {
     repeated CatheterData catheterData = 1;
-    NullableRobotControllerData nullableRobotControllerData = 2;
+    RobotControllerData robotControllerData = 2;
     repeated ElectricalSignalData electricalSignals = 3;
     google.protobuf.Timestamp created = 4;
 }
