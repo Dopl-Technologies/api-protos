@@ -5,7 +5,6 @@ package dopltechnologies.protos;
 option go_package = "github.com/dopl-technologies/api-protos-go;dtprotos";
 option csharp_namespace = "DoplTechnologies.Protos";
 
-import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 
 message Device {
